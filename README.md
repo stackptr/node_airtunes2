@@ -148,6 +148,7 @@ Node-airtunes was tested on the following devices:
 * Zeppelin Air
 * Raspberry PI
 * Bose SoundTouch
+* HomePod
 
 Ping me to add more devices to this list.
 
