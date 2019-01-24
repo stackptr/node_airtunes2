@@ -1,4 +1,4 @@
-var airtunes = require('../lib/'),
+var AirTunes = require('../lib/'),
     lame = require('lame'),
     request = require('request')
     spawn = require('child_process').spawn,
@@ -10,7 +10,8 @@ var airtunes = require('../lib/'),
       .demand(['host'])
       .argv;
 
-console.log('adding device: ' + argv.host + ':' + argv.port);
+console.log('adding device: ' + argv.host + ':' + argv.port + ' ALL=%j', argv);
+var airtunes = new AirTunes();
 var device = airtunes.add(argv.host, argv);
 
 // when the device is online, spawn ffmpeg to transcode the file
@@ -44,7 +45,7 @@ device.on('status', function(status) {
 
   request(argv.file)
     .pipe(new lame.Decoder)    
-    .on('format', console.log)
+//    .on('format', console.log)
     .pipe(airtunes);
 
 });
