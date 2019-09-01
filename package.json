@@ -26,8 +26,9 @@
   },
   "devDependencies": {
     "lame": "*",
-    "request": "^2.83.0",
-    "optimist": "*"
+    "mdns": "^2.5.1",
+    "optimist": "*",
+    "request": "^2.83.0"
   },
   "bugs": {
     "url": "https://github.com/mcfisto/node_airtunes2/issues"
