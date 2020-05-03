@@ -14,7 +14,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcfisto/node_airtunes2.git"
+    "url": "https://github.com/maexdaemaege/node_airtunes2.git"
   },
   "licenses": [
     {
@@ -31,6 +31,6 @@
     "request": "^2.83.0"
   },
   "bugs": {
-    "url": "https://github.com/mcfisto/node_airtunes2/issues"
+    "url": "https://github.com/maexdaemaege/node_airtunes2/issues"
   }
 }
