@@ -22,7 +22,7 @@
     }
   ],
   "dependencies": {
-    "async": "*"
+    "async": "^3.2.0"
   },
   "devDependencies": {
     "lame": "*",
